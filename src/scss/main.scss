@@ -1,0 +1,65 @@
+//---------------------------------------------
+//
+//  Table of Contents
+//
+//    1. Basics
+//    2. Page Layout
+//    3. Components
+//
+//---------------------------------------------
+
+//---------------------------------------------
+// 1. Basics
+//---------------------------------------------
+
+@import "variables";
+@import "bootstrap";
+@import "fonts";
+
+//---------------------------------------------
+// 2. Page Layout
+//---------------------------------------------
+
+#headercard {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    @include media-breakpoint-down(sm) {
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+}
+
+#info {
+  border-radius: .25rem;
+  @include media-breakpoint-down(sm) {
+    border-radius: 0px;
+  }
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: $light;
+}
+
+::-webkit-scrollbar-thumb {
+	background: $primary;
+}
+
+.navbar-brand {
+  font-family: "Righteous";
+}
+
+@each $display, $font-size in $display-font-sizes {
+  .display-#{$display} {
+   font-family: "Righteous";
+  }
+}
+
+//---------------------------------------------
+// 3.Components 
+//---------------------------------------------
+
+@import "components/slider";
