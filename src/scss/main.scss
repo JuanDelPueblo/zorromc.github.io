@@ -49,12 +49,12 @@
 }
 
 .navbar-brand {
-  font-family: "Righteous";
+  font-family: "Righteous", sans-serif;
 }
 
 @each $display, $font-size in $display-font-sizes {
   .display-#{$display} {
-   font-family: "Righteous";
+   font-family: "Righteous", sans-serif;
   }
 }
 
