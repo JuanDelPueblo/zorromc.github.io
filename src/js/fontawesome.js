@@ -4,8 +4,8 @@
 //import '@fortawesome/fontawesome-free/js/brands'
 
 import { library, dom } from "@fortawesome/fontawesome-svg-core";
-import { faTh, faMapMarkedAlt, faSun, faLeaf, faPlus, faBox, faIceCream, faAppleAlt, faMountain } from "@fortawesome/free-solid-svg-icons";
+import { faTh, faMapMarkedAlt, faSun, faLeaf, faPlus, faBox, faIceCream, faAppleAlt, faMountain, faCubes } from "@fortawesome/free-solid-svg-icons";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 
-library.add(faTh, faMapMarkedAlt, faSun, faLeaf, faPlus, faBox, faIceCream, faAppleAlt, faMountain, faDiscord);
+library.add(faTh, faMapMarkedAlt, faSun, faLeaf, faPlus, faBox, faIceCream, faAppleAlt, faMountain, faDiscord, faCubes);
 dom.watch();
