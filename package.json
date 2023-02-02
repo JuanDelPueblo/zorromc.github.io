@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/noreading/bootstrap5-webpack-boilerplate.git"
+    "url": "https://github.com/JuanDelPueblo/zorromc.github.io.git"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
